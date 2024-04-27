@@ -1,0 +1,36 @@
+.NavigationItemWrapper {
+    border: 1px solid transparent;
+    border-radius: 3px 3px 0 0;
+    border-top: 3px solid transparent;
+    float: left;
+    padding: 7px 15px 8px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.NavigationItemWrapper.selected {
+    color: #24292e;
+    background-color: #fff;
+    border-color: #e36209 #e1e4e8 transparent;
+}
+
+.NavigationItemWrapper:hover {
+    color: #000;
+}
+
+.NavigationItemValue {
+    background-color: rgba(27, 31, 35, 0.08);
+    border-radius: 20px;
+    color: #000;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1;
+    padding: 2px 5px;
+    margin-left: 2px;
+}
+
+.NavigationItemAnchor {
+    text-decoration: none;
+    color: #586069;
+}

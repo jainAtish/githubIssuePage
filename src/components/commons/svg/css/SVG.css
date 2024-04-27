@@ -1,0 +1,8 @@
+.common-svg{
+    color :'rgba(27,31,35,.3)';
+      fill: currentColor;
+      padding-right : 5px;
+      position : relative;
+      top : 2px;
+      display : inline-block;
+}

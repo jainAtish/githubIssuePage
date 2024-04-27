@@ -1,0 +1,44 @@
+
+.DetailContainer {
+    display: inline-block;
+    margin: 7px 5px;
+    font-size: 12px;
+    border-collapse: collapse;
+  }
+  
+  @media (max-width: 820px) {
+    .DetailContainer {
+      margin: 15px 0px;
+    }
+  }
+  
+
+  .DetailTagContainer {
+    border: 1px solid #cdcfd1;
+    border-width: 1px 0px 1px 1px;
+    text-decoration: none;
+    border-radius: 2px 0px 0px 2px;
+    line-height: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #586069;
+  }
+  
+  .DetailTagContainer:hover {
+    background-color: var(--background-color);
+  }
+  
+  /* DetailValueContainer styles */
+  .DetailValueContainer {
+    border: 1px solid #cdcfd1;
+    border-radius: 0px 2px 2px 0px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #586069;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .DetailValueContainer:hover {
+    background-color:var(--background-color);
+  }

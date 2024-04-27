@@ -1,0 +1,38 @@
+.repo-detail-container{
+  display: inline;
+  margin:5px;
+  font-size: 12px;
+  border: 1px solid #cdcfd1;
+  border-width: 1px;
+  border-radius : 2px 0px 0px 2px;
+  padding: 2px
+};
+
+.repo-detail-tagContainer{
+   padding: 5px 10px;
+   font-weight : bold;
+   background-color : #f4f7f9;
+   line-height: 20px;
+   cursor : pointer;
+}
+
+.repo-detail-tagContainer:hover{
+  background-color : #e7eaed;
+}
+
+.repo-detail-value-container{
+  
+   padding: 0px 10px;
+   font-weight : bold;
+   cursor : pointer;
+   background-color : #ffffff;
+}
+
+
+.caret{
+    margin: 0px 5px;
+    border: 1px solid currentcolor;
+    content: "";
+    display: inline;
+}
+

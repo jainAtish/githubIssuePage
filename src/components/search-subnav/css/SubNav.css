@@ -1,0 +1,38 @@
+.SubNavContainer {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+@media (max-width: 820px) {
+    .SubNavContainer {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+
+.SearchContainer {
+    display: inline-block;
+    position: relative;
+}
+
+@media (max-width: 820px) {
+    .SearchContainer {
+        margin-top: 10px;
+    }
+}
+  
+ 
+.FilterNSearchContainer {
+    display: flex;
+    align-items: baseline;
+}
+  
+@media (max-width: 820px) {
+    .FilterNSearchContainer {
+        flex-direction: column;
+        
+    }
+}

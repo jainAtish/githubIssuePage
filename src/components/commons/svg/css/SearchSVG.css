@@ -1,0 +1,10 @@
+
+.SubNavSearchIcon{
+    color: #c6cbd1;
+    display: block;
+    left: 8px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+}

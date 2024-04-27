@@ -1,0 +1,63 @@
+
+.IssuesTableHeaderContainer {
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 820px) {
+    .IssuesTableHeaderContainer {
+        flex-direction: column;
+    }
+}
+
+
+.OpenClosedIssueAnchor {
+    border: 1px solid transparent;
+    border-radius: 3px 3px 0 0;
+    border-top: 3px solid transparent;
+    float: left;
+    padding: 13px 0px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none;
+    color: #586069;
+}
+
+.OpenClosedIssueAnchor.selected {
+    font-weight: bold;
+    color: #24292e;
+}
+
+.OpenClosedIssueAnchor:hover {
+    color: #24292e;
+}
+
+
+.DetailSpan {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #586069;
+}
+
+.DetailSpan:hover {
+    color: #24292e;
+}
+
+
+.OtherDetails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+

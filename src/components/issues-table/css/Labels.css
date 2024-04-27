@@ -1,0 +1,15 @@
+/* Label styles */
+.Label {
+    font-size: 12px;
+    font-weight: 600;
+    height: 20px;
+    line-height: 15px;
+    padding: .15em 4px;
+    margin-left: 2px;
+  }
+  
+  /* LabelsWrapper styles */
+  .LabelsWrapper:hover {
+    color: #24292e;
+  }
+  
