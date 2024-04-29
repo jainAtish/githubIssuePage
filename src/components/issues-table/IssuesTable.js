@@ -16,7 +16,6 @@ const IssuesTable = () => {
     fetch(`https://api.github.com/repos/facebook/react/issues`)
       .then(response => response.json())
       .then(data => {
-        console.log(data.length)
         setIssueList(data)
       })
       .catch(error => console.error('Error fetching data:', error));

@@ -31,7 +31,7 @@ const App = () => {
         <SubNav/>
         <Router>
           <Routes>
-            <Route exact path="/" component={IssuesTable} />
+            <Route exact path="/" element={<IssuesTable/>} />
           
             <Route path="*" element={<IssuesTable/>} />
           </Routes>
